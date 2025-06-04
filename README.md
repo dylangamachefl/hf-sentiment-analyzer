@@ -1,3 +1,19 @@
+---
+title: HF Sentiment Analyzer
+emoji: 🤗 # You can choose an emoji
+colorFrom: blue # Or any color
+colorTo: green # Or any color
+sdk: docker
+app_file: app.py
+# For Docker, you don't usually specify sdk_version directly here
+# unless the template specifically requires it.
+# If your Dockerfile handles Python/Streamlit versions, that's usually enough.
+# If the Streamlit Docker Template implies a specific Dockerfile or setup,
+# then 'sdk: docker' and 'app_file: app.py' are key.
+# The template might also have set 'dockerfile: Dockerfile' if it expects one.
+pinned: false
+---
+
 # Project 1: Hugging Face Sentiment Analyzer
 
 ## Overview
