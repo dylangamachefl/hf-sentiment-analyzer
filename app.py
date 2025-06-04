@@ -11,12 +11,7 @@ load_dotenv(dotenv_path=dotenv_path)
 # --- End of .env loading section ---
 
 # Retrieve the API token
-API_TOKEN = os.getenv("HUGGING_FACE_API_TOKEN")
-if not API_TOKEN:
-    st.error(
-        "Hugging Face API token not found. Please set it in your .env file in the parent 'ai-portfolio' directory."
-    )
-    st.stop()
+API_TOKEN = os.getenv("HF_TOKEN")
 
 # Define the Hugging Face Inference API URL and the model
 API_URL = "https://api-inference.huggingface.co/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english"
