@@ -19,5 +19,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://dylangamachefl:${HF_TOKEN}@huggingface.co/spaces/dylangamachefl/hf-sentiment-analyzer main --force
-        
+          git remote add space https://dylangamachefl:${HF_TOKEN}@huggingface.co/spaces/dylangamachefl/hf-sentiment-analyzer
+          
+          git push --force space main
