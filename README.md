@@ -66,3 +66,10 @@ Provides a simple way to quickly determine the sentiment (Positive/Negative) of 
     streamlit run app.py
     ```
 6.  Open your browser and go to `http://localhost:8501`.
+
+## Screenshot
+(It's a good idea to add a screenshot of your working application here later, once you're happy with it.)
+<!-- Example: ![App Screenshot](path/to/your/screenshot.png) -->
+
+## Future Improvements (Optional)
+*   [Any ideas you have for making it better]
