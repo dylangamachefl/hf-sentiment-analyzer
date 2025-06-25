@@ -19,7 +19,9 @@ pinned: false
 ## Overview
 This project is a web application that performs sentiment analysis on user-provided text. It utilizes the Hugging Face Inference API to leverage a pre-trained sentiment analysis model (`distilbert/distilbert-base-uncased-finetuned-sst-2-english`). The user interface is built with Streamlit.
 
-This is the first project in my [4-Week AI Project Portfolio Action Plan](https://github.com/dylangamachefl/dylangamachefl).
+**Live Demo:** [HF Sentiment Analyzer App](https://dylangamachefl-hf-sentiment-analyzer.hf.space)
+
+**Repo:** [GitHub - hf-sentiment-analyzer](https://github.com/dylangamachefl/hf-sentiment-analyzer)
 
 ## Problem Solved
 Provides a simple way to quickly determine the sentiment (Positive/Negative) of a piece of text without needing to set up a local model or manage complex infrastructure. Useful for quick checks, demonstrations, or as a component in a larger text processing pipeline.
@@ -82,10 +84,3 @@ Provides a simple way to quickly determine the sentiment (Positive/Negative) of 
     streamlit run app.py
     ```
 6.  Open your browser and go to `http://localhost:8501`.
-
-## Screenshot
-(It's a good idea to add a screenshot of your working application here later, once you're happy with it.)
-<!-- Example: ![App Screenshot](path/to/your/screenshot.png) -->
-
-## Future Improvements (Optional)
-*   [Any ideas you have for making it better]
